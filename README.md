@@ -24,14 +24,4 @@ intentionally vulnerable applications and safe environments.
 
 ---
 
-## 📂 Repository Structure
 
-Each OWASP Top 10 vulnerability includes:
-- Concept explanation
-- Impact and risk
-- Vulnerable example
-- Secure coding practices
-- Mitigation techniques
-- Screenshots or references (where applicable)
-
-Example:
