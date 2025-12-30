@@ -38,7 +38,7 @@ In web security testing, one of the first steps is to look for **hidden or sensi
 ---
 
 ### **Step 2: Check `robots.txt`**
-
+ https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality/robots.txt
 * As a basic web hacking practice, we checked the `robots.txt` file by navigating to:
 * Here’s a **short and simple note** about `robots.txt` suitable for your lab or exam notes:
 
@@ -77,7 +77,7 @@ In web security testing, one of the first steps is to look for **hidden or sensi
 ---
 
 ### **Step 3: Access the Admin Panel**
-
+https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality/administrator-panel
 * We accessed the discovered endpoint:
 
   ```
