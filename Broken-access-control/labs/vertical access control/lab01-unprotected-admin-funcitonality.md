@@ -1,5 +1,3 @@
-Absolutely! Here's the **revised lab write-up** with “we” instead of “I”:
-
 ---
 
 ## **Lab Title**
@@ -34,12 +32,35 @@ In web security testing, one of the first steps is to look for **hidden or sensi
 
 <img width="1920" height="1080" alt="Screenshot at 2025-12-30 03-26-14" src="https://github.com/user-attachments/assets/044e6f17-1d78-40ab-89f0-da8766f2169b" />
 
+<img width="1920" height="1080" alt="Screenshot at 2025-12-30 03-28-20" src="https://github.com/user-attachments/assets/4e763d80-f2ae-4dd8-80c5-af9343650533" />
+
 
 ---
 
 ### **Step 2: Check `robots.txt`**
 
 * As a basic web hacking practice, we checked the `robots.txt` file by navigating to:
+* Here’s a **short and simple note** about `robots.txt` suitable for your lab or exam notes:
+
+ <img width="1920" height="1080" alt="Screenshot at 2025-12-30 03-29-46" src="https://github.com/user-attachments/assets/6b37a3c8-787e-4062-8e82-a67e581c5e44" />
+
+---
+
+## **robots.txt – Short Note**
+
+* `robots.txt` is a **text file** placed in the root directory of a website (e.g., `www.example.com/robots.txt`).
+* It **instructs search engine crawlers** (like Googlebot) which pages or directories **should not be indexed**.
+* Example content of robots.txt:
+  you can also try to visit this url:http://google.com/robots.txt or
+  User-agent: *
+  Disallow: /admin
+  Disallow: /private
+  ```
+
+  * `User-agent: *` → applies to all bots
+  * `Disallow:` → pages or directories that should not be crawled
+
+
 
   ```
   /robots.txt
@@ -50,7 +71,8 @@ In web security testing, one of the first steps is to look for **hidden or sensi
   /administrator-panel
   ```
 
-📸 *Screenshot 2: robots.txt showing administrator-panel*
+📸 <img width="1920" height="1080" alt="Screenshot at 2025-12-30 03-30-18" src="https://github.com/user-attachments/assets/b7e5e185-2b7a-460a-8e9c-90602e2b7679" />
+
 
 ---
 
@@ -98,7 +120,4 @@ This lab demonstrates the importance of proper access control in web application
 
 ---
 
-If you want, I can **also make a visually appealing version with proper headings, numbering, and highlighted key points** so it looks **like a professional lab report**.
-
-Do you want me to do that next?
 
