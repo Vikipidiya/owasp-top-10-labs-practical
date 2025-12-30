@@ -88,5 +88,6 @@ Clicked on the Delete option for the user.
 
 The deletion was successful.
 
-<img width="1920" height="1080" alt="Screenshot at 2025-12-30 05-32-30" src="https://github.com/user-attachments/assets/ce940dda-c9ab-468f-b2e5-36379d31a305" />
+![Lab Start Screenshot](https://github.com/user-attachments/assets/ce940dda-c9ab-468f-b2e5-36379d31a305)
+
 
