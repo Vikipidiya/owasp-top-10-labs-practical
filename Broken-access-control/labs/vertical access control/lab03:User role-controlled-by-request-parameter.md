@@ -14,6 +14,9 @@ Exploit a forgeable cookie to gain admin access and delete the user **carlos**.
 
 we have Credentials for login :
 wiener : peter
+<img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-37-52" src="https://github.com/user-attachments/assets/8f13890e-86bc-4d74-8725-2138fec0c3ce" />
+
+
 
 
 
@@ -28,26 +31,26 @@ Logged in as `wiener` and intercepted the request to on click on My Account usin
 📸
 
 ```md
-![Login](screenshots/login.png)
+<img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-38-07" src="https://github.com/user-attachments/assets/97819ec9-6f43-4c6a-be0a-19dcd316a57d" />
+
+<img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-40-10" src="https://github.com/user-attachments/assets/372d713b-a6d4-4014-b775-89a3c47927a0" />
+
+
+
+
+
 ```
 
 ---
 
 ### 2️⃣ Identify Forgeable Admin Cookie
 
-Observed the following cookie in the request:
+Observed the following  request and cookie in the request:
+we can see a value in cookie Admin=False means, authorization is manage in client-side
 
-```
-Admin=false
-```
 
 This indicates that admin authorization is controlled client-side.
 
-📸
-
-```md
-![Admin cookie](screenshots/admin-false.png)
-```
 
 ---
 
@@ -64,24 +67,26 @@ This granted access to the admin panel at `/admin`.
 📸
 
 ```md
-![Repeater admin true](screenshots/repeater-admin-true.png)
+<img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-38-07" src="https://github.com/user-attachments/assets/be0c9da6-8ea7-4230-9f49-84e6660886b7" />
+
 ```
 
 ---
 
 ### 4️⃣ Automate with Match & Replace
 
-Configured Burp to automatically modify requests:
+Configured Burp to automatically modify requests so when each request go through burpsuite it's automaticly set the value Admin=True
+go into proxy setting->
+**Proxy → Options → Match and Replace**->click add and then
 
-**Proxy → Options → Match and Replace**
-
-* **Match:** `Admin=false`
-* **Replace:** `Admin=true`
+* **Match field:** `Admin=false`
+* **Replace field:** `Admin=true`
 
 📸
 
 ```md
-![Match and Replace](screenshots/match-replace.png)
+<img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-44-17" src="https://github.com/user-attachments/assets/f3c0adbe-af9f-494e-8a02-ac9dfcb3d393" />
+
 ```
 
 ---
@@ -93,7 +98,8 @@ Accessed `/admin` and deleted the user **carlos**.
 📸
 
 ```md
-![Admin panel](screenshots/admin-panel.png)
+<img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-48-26" src="https://github.com/user-attachments/assets/1a255a2f-557f-42c0-9716-8966f551ef65" />
+
 ```
 
 ---
