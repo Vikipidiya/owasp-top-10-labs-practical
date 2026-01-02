@@ -58,14 +58,7 @@ Admin=false → Admin=true
 
 This granted access to the admin panel at `/admin`.
 
-📸
-
-
-<img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-38-07" src="https://github.com/user-attachments/assets/be0c9da6-8ea7-4230-9f49-84e6660886b7" />
-
-```
-
----
+-
 
 ### 4️⃣ Automate with Match & Replace
 
