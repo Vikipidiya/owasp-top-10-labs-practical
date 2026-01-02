@@ -89,9 +89,8 @@ Accessed `/admin` and deleted the user **carlos**.
 
 <img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-48-26" src="https://github.com/user-attachments/assets/1a255a2f-557f-42c0-9716-8966f551ef65" />
 
-```
 
----
+
 
 ## Result
 
