@@ -30,18 +30,12 @@ Logged in as `wiener` and intercepted the request to on click on My Account usin
 
 📸
 
-```md
+
 <img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-38-07" src="https://github.com/user-attachments/assets/97819ec9-6f43-4c6a-be0a-19dcd316a57d" />
 
 <img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-40-10" src="https://github.com/user-attachments/assets/372d713b-a6d4-4014-b775-89a3c47927a0" />
 
 
-
-
-
-```
-
----
 
 ### 2️⃣ Identify Forgeable Admin Cookie
 
