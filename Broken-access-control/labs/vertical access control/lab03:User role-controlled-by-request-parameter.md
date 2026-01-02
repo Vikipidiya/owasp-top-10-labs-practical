@@ -76,14 +76,9 @@ go into proxy setting->
 * **Match field:** `Admin=false`
 * **Replace field:** `Admin=true`
 
-📸
-
 
 <img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-44-17" src="https://github.com/user-attachments/assets/f3c0adbe-af9f-494e-8a02-ac9dfcb3d393" />
 
-```
-
----
 
 ### 5️⃣ Delete User
 
