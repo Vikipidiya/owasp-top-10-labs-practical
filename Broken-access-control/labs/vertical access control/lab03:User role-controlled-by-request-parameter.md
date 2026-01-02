@@ -60,7 +60,7 @@ This granted access to the admin panel at `/admin`.
 
 📸
 
-```md
+
 <img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-38-07" src="https://github.com/user-attachments/assets/be0c9da6-8ea7-4230-9f49-84e6660886b7" />
 
 ```
@@ -78,7 +78,7 @@ go into proxy setting->
 
 📸
 
-```md
+
 <img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-44-17" src="https://github.com/user-attachments/assets/f3c0adbe-af9f-494e-8a02-ac9dfcb3d393" />
 
 ```
@@ -91,7 +91,7 @@ Accessed `/admin` and deleted the user **carlos**.
 
 📸
 
-```md
+
 <img width="1920" height="1080" alt="Screenshot at 2026-01-02 03-48-26" src="https://github.com/user-attachments/assets/1a255a2f-557f-42c0-9716-8966f551ef65" />
 
 ```
